@@ -18,6 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+domain: asdalexander77.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://asdalexander77.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /ASDAlexander77.github.io/ 
+
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -53,3 +57,15 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+lsi: false
+safe: true
+#source: ../TypeScriptCompiler
+#exclude: [3rdParty, tsc/tsc-new-parser/test/scannertree_ts/node_modules]
+incremental: true
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
