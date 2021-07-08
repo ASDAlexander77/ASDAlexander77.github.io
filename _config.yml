@@ -18,20 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-domain: asdalexander77.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://asdalexander77.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /ASDAlexander77.github.io/ 
-
-title: Your awesome title
-email: your-email@example.com
+title: TypeScript Native Compiler (AOT)
+email: duzhar@googlemail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+domain: asdalexander77.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+baseurl: ""    				 # the subpath of your site, e.g. /blog
+url: https://asdalexander77.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: _Alex__D_
+github_username:  ASDAlexander77
 
 # Build settings
 theme: minima
@@ -58,14 +55,14 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-lsi: false
-safe: true
+#lsi: false
+#safe: true
 #source: ../TypeScriptCompiler
 #exclude: [3rdParty, tsc/tsc-new-parser/test/scannertree_ts/node_modules]
-incremental: true
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+#incremental: true
+#highlighter: rouge
+#gist:
+#  noscript: false
+#kramdown:
+#  math_engine: mathjax
+#  syntax_highlighter: rouge
