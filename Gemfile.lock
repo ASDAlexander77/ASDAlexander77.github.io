@@ -277,6 +277,7 @@ DEPENDENCIES
   expand_path (~> 0.0.1)
   github-pages (~> 215)
   jekyll-feed (~> 0.12)
+  jekyll-relative-links
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
